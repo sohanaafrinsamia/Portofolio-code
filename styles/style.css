@@ -29,6 +29,8 @@
 
 }
 
+
+
 /* main style */
 
 header{
@@ -118,15 +120,29 @@ nav .menu{
 
 #about {
     padding-top: 130px;
+    max-width: 1140px;
+    margin: 0 auto;
 }
 
 #about .about-container{
-    width: 71%;
-    max-width: 1140px;
-    margin: 0 auto;
     text-align: center;
     background-color:#fff8f3;
     padding: 130px 130px;
     
 }
 
+#about .about-container .about-info{
+    display: flex;
+    justify-content: space-between;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.about-info .info-card p{
+    color: #757575;
+}
+
+.about-info .info-card h4{
+    font-size: 20px;
+    
+}
