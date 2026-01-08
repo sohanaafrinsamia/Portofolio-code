@@ -44,6 +44,7 @@ header{
 .section-heading{
     max-width: 827px;
     text-align: center;
+    margin: 0 auto;
 }
 
 .section-heading h2{
@@ -145,4 +146,27 @@ nav .menu{
 .about-info .info-card h4{
     font-size: 20px;
     
+}
+
+#skill{
+    padding-top: 127px;
+}
+
+#skill.skill-container{
+width: 71%;
+max-width: 1140px;
+margin: 0 auto;
+
+}
+
+#skill.skill-container.skill-box{
+    display: flex;
+    gap: 24px;
+}
+
+.skill-box .skill-card{
+    padding: 30px;
+    border: 1px solid red;
+    max-width: 267px;
+
 }
